@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Сайт з продажу автомобілів</title>
+<!-- Посилання на CSS -->
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="paypal.js">
+<!-- Іконки -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <script src="https://www.paypal.com/sdk/js?client-id=AZx35dq3z0xMzgoL665Q8iz-SC385pQ333o7Q19a4nWL3KexDtlDcIQ_o1W4T7atLFpIWxHmspWpkVTQ&currency=UA"></script>
+    <script src="paypal.js"></script>
+    <!-- Навігаційна панель --> 
+   <header>
+    <!-- Навігаційний блок -->
+    <div class="nav container">
+        <!-- Меню значків  -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!-- Лого  -->
+        <a href="#" class="logo">Авто<span>Пункт</span> </a>
+        <!-- Список навігацій  -->
+        <ul class="navbar">
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="p1.html" class="active" >Авто</a></li>
+            <li><a href="p2.html">Запчастини</a></li>
+            <li><a href="p3.html">Про нас</a></li>
+            <li><a href="p4.html">Наш блог</a></li>
+        </ul>
+        <!-- Знак пошуку  -->
+        <i class='bx bx-search' id="search-icon" ></i>
+        <!-- Знак блок  -->
+        <div class="search-box container">
+            <input type="search" name="" id="" placeholder="Пошук тут">
+        </div>
+    </div>
+</header>
+    <!-- Головна  -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Також у нас <br>є <span>Запчастини</span></h1>
+            <p></p>
+            <!-- Кнопка Головна  -->
+            <a href="p2.html" class="btn">Подивитися запчастини</a>
+        </div>
+    </section>
+    <!-- Товар  -->
+    <!-- Розділ опис  -->
+    <section class="parts" id="parts" >
+        <div class="heading">
+            <span>Що ми пропонуємо</span>
+            <h2>Низькі ціни на авто преміум класу</h2>
+        </div>
+        <!-- Розділ Авто блок  -->
+        <div class="parts-container containee">
+            <!-- Блок 1 -->
+            <div class="box">
+                <img src="img/c6.jpg" alt="">
+                <h3>Mercedes S-Class</h3>
+                <span >$14000</span>
+                <i class='bx bxs-star'>(12 Відгуки)</i>
+                <button id="paypal-button" class="btn">Замовити</button>
+                <a href="#" class="details1">Детальніше</a>
+            </div>
+            <!-- Блок 2 -->
+            <div class="box">
+                <img src="img/c7.jpg" alt="">
+                <h3>Aston martin db11</h3>
+                <span>$145000</span>
+                <i class='bx bxs-star'>(9 Відгуки)</i>
+                <a href="#" class="btn">Замовити</a>
+                <a href="#" class="details2">Детальніше</a>
+            </div>
+            <!-- Блок 3 -->
+            <div class="box">
+                <img src="img/c8.jpg" alt="">
+                <h3>Volkswagen Käfer</h3>
+                <span>$9762</span>
+                <i class='bx bxs-star'>(4 Відгуки)</i>
+                <a href="#" class="btn">Замовити</a>
+                <a href="#" class="details3">Детальніше</a>
+            </div>
+            <!-- Блок 4 -->
+            <div class="box">
+                <img src="img/c9.jpg" alt="">
+                <h3>Porsche 911 Carrera 4</h3>
+                <span>$79000</span>
+                <i class='bx bxs-star'>(10 Відгуки)</i>
+                <a href="#" class="btn">Замовити</a>
+                <a href="#" class="details4">Детальніше</a>
+            </div>
+            <!-- Блок 5 -->
+            <div class="box">
+                <img src="img/c10.jpg" alt="">
+                <h3>Ferrari 488 Pista</h3>
+                <span>$700000</span>
+                <i class='bx bxs-star'>(7 Відгуки)</i>
+                <a href="#" class="btn">Замовити</a>
+                <a href="#" class="details5">Детальніше</a>
+            </div>
+            <!-- Блок 6 -->
+            <div class="box">
+                <img src="img/c11.jpg" alt="">
+                <h3>Nissan GT-R 2015</h3>
+                <span>$70000</span>
+                <i class='bx bxs-star'>(3 Відгуки)</i>
+                <a href="#" class="btn">Замовити</a>
+                <a href="#" class="details6">Детальніше</a>
+            </div>
+        </div>
+    </section>
+    <!-- Низ  -->
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#" class="logo">Авто<span>Пункт</span></a>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-youtube' ></i></a>
+                    <a href="#"><i class='bx bxl-X' ></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Сторінка</h3>
+                <a href="index.html">Головна</a>
+                <a href="p1.html">Авто</a>
+                <a href="p2.html">Запчастини</a>
+                <a href="p3.html">Про нас</a>
+            </div>
+            <div class="footer-box">
+                <h3>Правова інформація</h3>
+                <a href="#">Політика конфіденційності</a>
+                <a href="#">Сookie</a>
+                <a href="#">Соціальні плагіни</a>
+
+            </div>
+            <div class="footer-box">
+                <h3>Контакти</h3>
+                <p>Україна</p>
+                <p>Колумбія</p>
+                <p>Мексика</p>
+            </div>
+        </div>
+    </section>
+    <!-- Авторське право  -->
+    <div class="copyright">
+        <p>&#169; Terber Усі права захищено</p>
+    </div>
+<!-- Посилання на Js  -->
+<script src="main.js"></script>
+<script src="More details.js"></script>
+<script src="paypal.js"></script>
+</body>
+</html>

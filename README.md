@@ -1,75 +1,15 @@
-# Nuxt 3 Minimal Starter
+# Розробка інтернет-магазину з продажу автомобілів
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Кваліфікаційна робота на підтвердження ступеня фахового молодшого бакалавра ([ВСП «ППФК НТУ «ХПІ»](http://polytechnic.poltava.ua)).
 
-## Setup
+Керівник роботи – **Гриценко Світлана Євгеніївна**.
 
-Make sure to install the dependencies:
+## Завдання до дипломної роботи
 
-```bash
-# npm
-npm install
+Розроблений продукт має являти собою інтернет-магазин. Слід забезпечити стандартну для систем такого роду функціональність: інформацію про магазин, перегляд автомобілів, опис, характеристики та ціна, реалізувати можливість здійснення пошуку автомобілів за різними критеріями та можливість здійснення онлайн-купівлі, зворотній зв’язок. Розроблений інтернет-магазин та використані технології мають бути детально описані у пояснювальній записці.
 
-# pnpm
-pnpm install
+## Використані технології
 
-# yarn
-yarn install
+* JavaScript
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Опублікований продукт
